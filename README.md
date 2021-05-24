@@ -23,4 +23,6 @@ edkd [OPTIONS...] [NUMBERs...|FIREs...]
   ```
   
 ## icon
-<img src="./img/tthead_icon.svg" width="100">
+<img src="./img/tthead_icon.svg" width="100">  
+
+アイコンの画像は [freesvg.org](https://freesvg.org/rejons-head-vector)から取得.
