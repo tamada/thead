@@ -1,5 +1,6 @@
 # tthead
 二地点の緯度経度から距離の算出を行う．
+<img src="./img/tthead_icon.svg" width="100">
 
 ## Description
 私は地理情報を用いた研究を行っている．その中で二点間の緯度経度から距離の算出を行うことがあった．しかし，距離の算出方法は一つではない．私が行った研究内では，harversine公式を使用し，距離を算出した．  
@@ -21,4 +22,4 @@ edkd [OPTIONS...] [NUMBERs...|FIREs...]
   ```
   
 ## icon
-![tthead](img/Head.svg)
+<img src="./img/tthead_icon.svg" width="100">
