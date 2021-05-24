@@ -10,10 +10,11 @@ headコマンドの機能拡張
 ```
 thead [OPTIONS...] [FILEs...|DIRs...]  
 　OPTIONS:  
-    -c, --bytes     あ．  
-    -n, --lines     あ．  
-    -q, --quiet     あ．  
-    -h, --help      このメッセージを出力する.  
+    -c, --bytes <BYTES>　を出力する．
+    -n, --lines <LINES>　
+    -q, --quiet
+    -s, --squeeze-blank連続した空行を1行にする．  
+    -h, --helpこのメッセージを出力する.  
     
 　ARGUMENTS   
 　　FILEs... 
