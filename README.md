@@ -1,7 +1,7 @@
-# tthead
+# thead
 二地点の緯度経度から距離の算出を行う．  
 
-<img src="./img/tthead_icon.svg" width="100">
+<img src="./img/thead_icon.svg" width="100">
 
 ## Description
 私は地理情報を用いた研究を行っている．その中で二点間の緯度経度から距離の算出を行うことがあった．しかし，距離の算出方法は一つではない．私が行った研究内では，harversine公式を使用し，距離を算出した．  
@@ -9,7 +9,7 @@
 
 ## Usage
 ```
-edkd [OPTIONS...] [NUMBERs...|FIREs...]  
+thead [OPTIONS...] [NUMBERs...|FIREs...]  
 　OPTIONS:  
 　　-H,--Hubeny ヒュベニの公式で距離を算出．デフォルトではharversine公式を使用して算出する．  
 　　-x,--same-xcoord 経度が同一直線上に存在する場合の距離算出．ARGUMENTsは二地点の緯度を引数にする．  
@@ -23,6 +23,6 @@ edkd [OPTIONS...] [NUMBERs...|FIREs...]
   ```
   
 ## icon
-<img src="./img/tthead_icon.svg" width="100">  
+<img src="./img/thead_icon.svg" width="100">  
 
 アイコンの画像は [freesvg.org](https://freesvg.org/rejons-head-vector)から取得.
