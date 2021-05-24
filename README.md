@@ -1,5 +1,5 @@
 # tthead
-二地点の緯度経度から距離の算出を行う．
+二地点の緯度経度から距離の算出を行う．  
 <img src="./img/tthead_icon.svg" width="100">
 
 ## Description
