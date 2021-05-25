@@ -11,7 +11,7 @@ headコマンドの機能拡張
 
 ## Usage
 ```
-thead [OPTIONS...] [FILEs...|DIRs...]  
+thead [OPTIONS...] <FILEs...|DIRs...>  
 　OPTIONS:  
     -c, --bytes <BYTES>     指定された文字数を各ファイルごとに出力する．
     -n, --lines <LINES>     指定された行数を各ファイルごとに出力する．
