@@ -1,3 +1,4 @@
+[![CI](https://github.com/akanatr/thead/actions/workflows/build.yml/badge.svg)](https://github.com/akanatr/thead/actions/workflows/build.yml)
 
 # thead
 headコマンドの機能拡張 
