@@ -1,6 +1,4 @@
 [![CI](https://github.com/akanatr/thead/actions/workflows/build.yml/badge.svg)](https://github.com/akanatr/thead/actions/workflows/build.yml)
-https://img.shields.io/github/license/akanatr/thead
-
 
 # thead
 headコマンドの機能拡張 
