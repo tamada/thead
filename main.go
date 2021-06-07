@@ -7,21 +7,16 @@ import (
 )
 
 func helpMessage(originalProgramName string) string {
-	name := filepath.Base(originalProgramName)
-	return fmt.Sprintf(`%s [OPTIONS] <VECTORS...>
+	programName := filepath.Base(originalProgramName)
+	return fmt.Sprintf(`%s [OPTIONS]  [FILEs...]
 OPTIONS
-    -a, --algorithm <ALGORITHM>    specifies the calculating algorithm.  This option is mandatory.
-                                   The value of this option accepts several values separated with comma.
-                                   Available values are: simpson, jaccard, dice, and cosine.
-    -f, --format <FORMAT>          specifies the resultant format. Default is default.
-                                   Available values are: default, json, and xml.
-    -t, --input-type <TYPE>        specifies the type of VECTORS. Default is file.
-                                   If TYPE is separated with comma, each type shows
-                                   the corresponding VECTORS.
-                                   Available values are: file, string, and json.
-    -h, --help                     prints this message.
-VECTORS
-    the source of vectors for calculation.`, name)
+	-n, --number            行番号を表示する．
+	-b, --number-nonblank   行番号を表示する．ただし空白行には付けない．
+	-s, --squeeze-blank     連続した空行を1行にする．
+	-t, --table             2つ目以降のファイルでは先頭行を無視する．
+	-h, --help              このメッセージを出力します．
+ARGUMENTS
+	FILEs...                中身の確認または結合を行うファイル．`, programName)
 }
 
 func goMain(args []string) int {
