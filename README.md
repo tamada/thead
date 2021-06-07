@@ -1,6 +1,7 @@
 [![build](https://github.com/akanatr/thead/actions/workflows/build.yml/badge.svg)](https://github.com/akanatr/thead/actions/workflows/build.yml)
 [![Coverage Status](https://coveralls.io/repos/github/akanatr/thead/badge.svg?branch=main)](https://coveralls.io/github/akanatr/thead?branch=main)
 [![codebeat badge](https://codebeat.co/badges/dd29b1a2-7c3c-4c2a-b08e-87e152043f57)](https://codebeat.co/projects/github-com-akanatr-thead-main)
+[![Go Report Card](https://goreportcard.com/badge/github.com/akanatr/thead)](https://goreportcard.com/report/github.com/akanatr/thead)
 [![GitHub license](https://img.shields.io/github/license/akanatr/thead)](https://github.com/akanatr/thead/blob/main/LICENSE)
 
 # thead
