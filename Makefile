@@ -27,5 +27,6 @@ dist: all
 build: main.go
 	go build -o $(NAME) -v main.go
 
+
 clean:
 	@rm -f thead *~
