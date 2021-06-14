@@ -10,13 +10,14 @@ func helpMessage(originalProgramName string) string {
 	programName := filepath.Base(originalProgramName)
 	return fmt.Sprintf(`%s [OPTIONS]  [FILEs...]
 OPTIONS
-	-n, --number            行番号を表示する．
-	-b, --number-nonblank   行番号を表示する．ただし空白行には付けない．
-	-s, --squeeze-blank     連続した空行を1行にする．
-	-t, --table             2つ目以降のファイルでは先頭行を無視する．
-	-h, --help              このメッセージを出力します．
+	-c, --bytes <BYTES>		指定された文字数を各ファイルごとに出力する．
+	-n, --lines <LINES>		指定された行数を各ファイルごとに出力する．
+	-q, --quiet				複数ファイルを出力する際の各ファイル名を表示しない．
+	-s, --squeeze-blank		各ファイルごとに連続した空行を1行にする．  
+	-h, --help				このメッセージを出力する.
 ARGUMENTS
-	FILEs...                中身の確認または結合を行うファイル．`, programName)
+	FILEs...				カウント対象を指定する．theadはzip/tar/tar.gz/tar.bz2/jar/warファイルを受け付ける．
+	DIRs...					指定したディレクトリ内のファイルを入力ファイルとする．`, programName)
 }
 
 func goMain(args []string) int {
