@@ -3,6 +3,7 @@
 [![codebeat badge](https://codebeat.co/badges/dd29b1a2-7c3c-4c2a-b08e-87e152043f57)](https://codebeat.co/projects/github-com-akanatr-thead-main)
 [![Go Report Card](https://goreportcard.com/badge/github.com/akanatr/thead)](https://goreportcard.com/report/github.com/akanatr/thead)
 [![GitHub license](https://img.shields.io/github/license/akanatr/thead)](https://github.com/akanatr/thead/blob/main/LICENSE)
+[![Dockerfile](https://img.shields.io/badge/Docker-ghcr.io%2Fakanatr%2Fthead%3A1.0.0-green?logo=docker)](https://hub.docker.com/repository/docker/akanatr/thead_image)
 
 # thead
 headコマンドの機能拡張 
