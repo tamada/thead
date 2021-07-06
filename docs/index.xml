@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>thead</title>
+    <link>http://example.com/</link>
+    <description>Recent content on thead</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Usage</title>
+      <link>http://example.com/post/usage/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/post/usage/</guid>
+      <description>Usage thead [OPTIONS...] &amp;lt;FILEs...|DIRs...&amp;gt; OPTIONS: -c, --bytes &amp;lt;BYTES&amp;gt; 指定されたバイト数を各ファイルごとに出力する． -n, --lines &amp;lt;LINES&amp;gt; 指定された行数を各ファイルごとに出力する． -q, --quiet 複数ファイルを出力する際の各ファイル名を表示しない． -h, --help このメッセージを出力する. ARGUMENTS FILEs... カウント対象を指定する． DIRs... 指定したディレクトリ内のファイルを入力ファイルとする． </description>
+    </item>
+    
+  </channel>
+</rss>
