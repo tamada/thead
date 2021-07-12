@@ -5,7 +5,7 @@
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Usage</title>
+        <title>Index</title>
         
         <style>
 
@@ -15,7 +15,7 @@
     }
 
     :root {
-        --accent: green;
+        --accent: red;
         --border-width:  5px ;
     }
 
@@ -85,7 +85,7 @@
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand visible-xs" href="#">Usage</a>
+                    <a class="navbar-brand visible-xs" href="#">Index</a>
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -96,13 +96,9 @@
                     
                         <ul class="nav navbar-nav">
                             
-                                <li><a href="/post/home">Home</a></li>
+                                <li><a href="/">Home</a></li>
                             
-                                <li><a href="/post/installation">Installation</a></li>
-                            
-                                <li><a href="/post/usage">Usage</a></li>
-                            
-                                <li><a href="/post/about">About</a></li>
+                                <li><a href="/post/">Index</a></li>
                             
                         </ul>
                     
@@ -111,7 +107,7 @@
                             
                                 <li class="navbar-icon"><a href="mailto:me@example.com"><i class="fas fa-envelope"></i></a></li>
                             
-                                <li class="navbar-icon"><a href="https://github.com/akanatr/thead"><i class="fab fa-github"></i></a></li>
+                                <li class="navbar-icon"><a href="https://github.com/akanatr/"><i class="fab fa-github"></i></a></li>
                             
                                 <li class="navbar-icon"><a href="https://twitter.com/username/"><i class="fab fa-twitter"></i></a></li>
                             
@@ -129,53 +125,26 @@
 <main>
 
     <div>
-        <h2>Usage</h2>
-        <h5>July 5, 2021</h5>
+        <h2>Index</h2>
+        <h5></h5>
         
 
     </div>
 
-    <div align="start" class="content"><h2 id="usage">Usage</h2>
-<pre><code>thead [OPTIONS...] &lt;FILEs...|DIRs...&gt;  
-　OPTIONS:  
-    -c, --bytes &lt;BYTES&gt;             指定されたバイト数を各ファイルごとに出力する．
-    -n, --lines &lt;LINES&gt;             指定された行数を各ファイルごとに出力する．
-    -q, --quiet                     複数ファイルを出力する際の各ファイル名を表示しない．
-    -h, --help                      このメッセージを出力する.  
-    
-　ARGUMENTS   
-　　FILEs...                 カウント対象を指定する．
-　　DIRs...                  指定したディレクトリ内のファイルを入力ファイルとする．
-</code></pre></div>
-
-    
-    
-    
-
-    
-    
-        <h4 class="page-header">Comments</h4>
-        <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "username" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    
+    <div align="start" class="content"><p><a href="https://github.com/akanatr/thead/actions/workflows/build.yml"><img src="https://github.com/akanatr/thead/actions/workflows/build.yml/badge.svg" alt="build"></a>
+<a href="https://coveralls.io/github/akanatr/thead?branch=main"><img src="https://coveralls.io/repos/github/akanatr/thead/badge.svg?branch=main" alt="Coverage Status"></a>
+<a href="https://codebeat.co/projects/github-com-akanatr-thead-main"><img src="https://codebeat.co/badges/dd29b1a2-7c3c-4c2a-b08e-87e152043f57" alt="codebeat badge"></a>
+<a href="https://goreportcard.com/report/github.com/akanatr/thead"><img src="https://goreportcard.com/badge/github.com/akanatr/thead" alt="Go Report Card"></a>
+<a href="https://github.com/akanatr/thead/blob/main/LICENSE"><img src="https://img.shields.io/github/license/akanatr/thead" alt="GitHub license"></a>
+<a href="https://hub.docker.com/repository/docker/akanatr/thead_image"><img src="https://img.shields.io/badge/Docker-ghcr.io%2Fakanatr%2Fthead%3A1.0.0-green?logo=docker" alt="Dockerfile"></a></p>
+<h1 id="thead">thead</h1>
+<p>headコマンドの機能拡張</p>
+<!-- raw HTML omitted -->
+<h2 id="description">Description</h2>
+<p>既存のheadコマンドは複数のファイル指定し，各ファイルごとの先頭10行分の内容を出力することが可能である．
+しかし，特定のディレクトリ直下のファイル全てを指定する際には，正規表現を工夫する必要があり面倒である．
+そこでtheadではheadコマンドの機能の一部に加え，ディレクトリを指定するだけでその直下のファイル全てを対象とする機能を追加する．</p>
+</div>
 
 </main>
 
